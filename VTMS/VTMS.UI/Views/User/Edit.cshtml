@@ -1,0 +1,28 @@
+﻿@model VTMS.Models.User
+<h1>
+    编辑用户信息
+</h1>
+
+<form method="post" action="~/User/SaveUser">
+    <table>
+        <tr>
+            <td>电话号码：</td>
+            <td>
+                <input type="hidden" name="Id" value="@(Model==null?0:Model.Id)" />
+                <input type="text" name="PhoneNo" value="@(Model==null?"":Model.PhoneNo)" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>密码：</td>
+            <td>
+                <input type="hidden" name="Id" value="@(Model==null?0:Model.Id)" />
+                <input type="text" name="Password" value="@(Model==null?"":Model.Password)" />
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" name="submit" value="保存" /></td>
+        </tr>
+    </table>
+</form>

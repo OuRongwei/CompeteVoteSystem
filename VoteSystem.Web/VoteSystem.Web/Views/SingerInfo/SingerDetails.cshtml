@@ -1,0 +1,63 @@
+﻿@model VoteSystem.Model.SingerAndSocreViewModel
+
+<style>
+    h1{}
+
+    #SDTable {
+         text-align:center;
+    }
+    #SDdiv{
+        text-align:center;
+        border-style:solid;
+    }
+
+    input {
+        border: none;
+    }
+</style>
+
+<h1>
+    歌手详情信息
+</h1>
+<div id="SDdiv">
+
+    <div>
+
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="http://localhost:8089/@Model.ImageUrl" style="width:300px;height:300px" />
+        }
+    </div>
+
+    <div>
+        姓名<input type="text" name="Name" value="@(Model==null?"":Model.Name)" />
+
+    </div>
+
+
+    <div>
+        年龄<input type="text" name="Age" value="@(Model==null?0:Model.Age)" />
+
+    </div>
+
+
+    <div>
+        性别<input type="text" name="Marry" value="@(Model.Marry==0?"未婚":"已婚")" />
+
+    </div>
+
+    <div>
+        简介<input type="text" name="Motto" value="@(Model==null?"":Model.Brief)" />
+    </div>
+
+    <div>
+        票数<input type="text" name="PiaoShu" value="@(Model==null?0:Model.PiaoShu)" />
+    </div>
+
+    <div>
+        <a href="~/SingerInfo/Index">返回</a>
+    </div>
+
+
+
+</div>

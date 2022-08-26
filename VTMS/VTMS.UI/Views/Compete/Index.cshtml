@@ -1,0 +1,49 @@
+﻿@model IQueryable<VTMS.Models.Compete>
+<style type="text/css">
+    .tbl {
+    }
+
+        .tbl a {
+            color: red
+        }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    input {
+        border: 0;
+        outline: none;
+    }
+</style>
+
+<h1>
+    比赛管理页面
+</h1>
+
+<a href="~/Compete/Edit">
+    <input type="button" value="新增比赛" />
+</a>
+<table class="tbl" border="1">
+    <tr>
+        <th>Id</th>
+        <th>封面图片</th>
+        <th>比赛说明</th>
+        <th>比赛开始时间</th>
+        <th>比赛结束时间</th>
+        <th>修改</th>
+        <th>删除</th>
+    </tr>
+    @foreach (var compete in Model)
+    {
+<tr>
+    <td>@compete.Id</td>
+    <td><img src="http://localhost:8080/@compete.ImageUrl" style="width:100px;height:100px;" /></td>
+    <td>@compete.Brief</td>
+    <td>@compete.StartTime</td>
+    <td>@compete.EndTime</td>
+    <td><a href="~/Compete/Edit/@compete.Id">修改</a></td>
+    <td><a href="~/Compete/Remove/@compete.Id">删除</a></td>
+</tr>
+    }
+</table>

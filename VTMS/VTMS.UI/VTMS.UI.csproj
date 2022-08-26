@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VTMS.DbContext\VTMS.DbManager.csproj" />
+    <ProjectReference Include="..\VTMS.Models\VTMS.Models.csproj" />
+    <ProjectReference Include="..\VTMS.Service\VTMS.Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,50 @@
+﻿@model VTMS.Models.Singer
+<h1>
+    编辑比赛信息
+</h1>
+
+<form method="post" action="~/Singer/SaveSinger">
+    <table>
+        <tr>
+            <td>照片链接：</td>
+            <td>
+                <input type="hidden" name="Id" value="@(Model==null?0:Model.Id)" />
+                <input type="text" name="ImageUrl" value="@(Model==null?"":Model.ImageUrl)" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>歌手头衔：</td>
+            <td>
+                <input type="hidden" name="Id" value="@(Model==null?0:Model.Id)" />
+                <input type="text" name="Title" value="@(Model==null?"":Model.Title)" />
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>歌手名字：</td>
+            <input type="hidden" name="Id" value="@(Model==null?0:Model.Id)" />
+            <td><input type="text" name="Name" value="@(Model==null?"":Model.Name)" /></td>
+        </tr>
+
+        <tr>
+            <td>歌手年龄</td>
+            <td><input type="text" name="Age" value="@(Model==null?"":Model.Age.ToString())" /></td>
+        </tr>
+
+        <tr>
+            <td>婚姻状况：</td>
+            <td><input type="text" name="Marry" value="@(Model==null?"":Model.Marry.ToString())" /></td>
+        </tr>
+
+        <tr>
+            <td>歌手简介：</td>
+            <td><input type="text" name="Brief" value="@(Model==null?"":Model.Brief)" /></td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" name="submit" value="保存" /></td>
+        </tr>
+    </table>
+</form>

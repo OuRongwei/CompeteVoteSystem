@@ -1,0 +1,70 @@
+﻿@*@{
+        ViewBag.Title = string.Format("欢迎使用投票管理系统");
+        Layout = "_LoginLayout";
+    }
+    <link href="~/css/login.css" rel="stylesheet" />
+
+    <div class="login-panel">
+        <div class="login-title">@ViewBag.Title</div>
+        @using (Html.BeginForm("LoginChecking", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
+        {
+            <div class="form-group">
+                <input type="text" name="Phone" placeholder="请输入登录用户名" class="form-control" value="" />
+            </div>
+            <div class="form-group">
+                <input type="password" name="Password" placeholder="请输入登录账户的密码" class="form-control" value="" />
+            </div>
+            <div class="form-half-group">
+                <ul>
+                    <li class="text-danger">@ViewBag.Msg</li>
+                </ul>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="登  录" class="login-btn" />
+            </div>
+        }
+    </div>*@
+
+@model VTMS.Models.Admin
+@{
+    ViewBag.Title = string.Format("欢迎使用投票系统-管理界面");
+    Layout = "_LoginLayout";
+}
+
+<link href="~/css/MyLogin2.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/mylogin.js"></script>
+
+<div class="htmleaf-container">
+    <p class="center" style="font-size:50px">在线投票系统-管理员界面</p>
+
+    <div id="wrapper" class="login-page">
+        <div id="login_form" class="form">
+
+            <form class="login-form" method="post" action="~/Account/LoginChecking">
+                @*<input type="text" placeholder="用户名" id="user_name" />*@
+                @if (Model == null)
+                {
+                    <input name="Account" placeholder="用户名" type="text" />
+                }
+                else
+                {
+                    <input name="Account" type="text" value="@Model.Account" />
+                }
+                @*<input type="password" placeholder="密码" id="password" />*@
+                @if (Model == null)
+                {
+                    <input name="Password" placeholder="密码" type="password" />
+                }
+                else
+                {
+                    <input name="Password" type="password" value="@Model.Password" />
+                }
+                <button name="submit" type="submit" id="login">登　录</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

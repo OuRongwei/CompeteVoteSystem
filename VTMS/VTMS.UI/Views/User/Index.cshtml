@@ -1,0 +1,45 @@
+﻿@model IQueryable<VTMS.Models.User>
+<style type="text/css">
+    .tbl {
+    }
+
+        .tbl a {
+            color: red
+        }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    input {
+        border: 0;
+        outline: none;
+    }
+</style>
+
+<h1>
+    用户管理页面
+</h1>
+
+<a href="~/User/Edit">
+    <input type="button" value="新增用户" />
+</a>
+<table class="tbl" border="1">
+    <tr>
+        <th>Id</th>
+        <th>电话号码</th>
+        <th>密码</th>
+        <th>修改</th>
+        <th>删除</th>
+    </tr>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.Id</td>
+            <td>@user.PhoneNo</td>
+            <td>@user.Password</td>
+            <td><a href="~/User/Edit/@user.Id">修改</a></td>
+            <td><a href="~/User/Remove/@user.Id">删除</a></td>
+        </tr>
+    }
+</table>

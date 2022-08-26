@@ -1,0 +1,55 @@
+﻿@model VoteSystem.Model.User
+@{
+    ViewBag.Title = string.Format("欢迎使用投票管理系统");
+    Layout = "_LoginLayout";
+}
+
+<link href="~/css/MyLogin2.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/mylogin.js"></script>
+
+<div class="htmleaf-container">
+    <p class="center" style="font-size:50px">在线投票登陆系统</p>
+
+    <div id="wrapper" class="login-page">
+        <div id="login_form" class="form">
+
+
+            <form class="register-form" method="post" action="~/Account/Register">
+                <input type="text" placeholder="用户名" id="r_user_name" name="PhoneNo" required />
+                <input type="password" placeholder="密码" id="r_password" name="Password" required />
+                <input type="password" placeholder="确认密码" v-model="registerdata.confirmPassword" name="confirmPassword" required />
+
+                <button id="create" type="submit" class="btn submit">注 册</button>
+                <p class="message">已经有了一个账户? <a href="#">立刻登录</a></p>
+            </form>
+
+
+            <form class="login-form" method="post" action="~/Account/LoginChecking">
+                @*<input type="text" placeholder="用户名" id="user_name" />*@
+                @if (Model == null)
+                {
+                    <input name="PhoneNo" placeholder="用户名" type="text" />
+                }
+                else
+                {
+                    <input name="PhoneNo" type="text" value="@Model.PhoneNo" />
+                }
+                @*<input type="password" placeholder="密码" id="password" />*@
+                @if (Model == null)
+                {
+                    <input name="Password" placeholder="密码" type="password" />
+                }
+                else
+                {
+                    <input name="Password" type="password" value="@Model.Password" />
+                }
+                <button name="submit" type="submit" id="login">登　录</button>
+                <p class="message">还没有账户? <a href="#">立刻创建</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

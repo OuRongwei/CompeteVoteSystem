@@ -1,0 +1,13 @@
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\bin\Debug\netcoreapp3.1\VTMS.DbManager.deps.json
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\bin\Debug\netcoreapp3.1\VTMS.DbManager.dll
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\bin\Debug\netcoreapp3.1\VTMS.DbManager.pdb
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\bin\Debug\netcoreapp3.1\VTMS.Models.dll
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\bin\Debug\netcoreapp3.1\VTMS.Models.pdb
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\obj\Debug\netcoreapp3.1\VTMS.DbManager.csproj.AssemblyReference.cache
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\obj\Debug\netcoreapp3.1\VTMS.DbManager.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\obj\Debug\netcoreapp3.1\VTMS.DbManager.AssemblyInfoInputs.cache
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\obj\Debug\netcoreapp3.1\VTMS.DbManager.AssemblyInfo.cs
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\obj\Debug\netcoreapp3.1\VTMS.DbManager.csproj.CoreCompileInputs.cache
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\obj\Debug\netcoreapp3.1\VTMS.DbManager.csproj.CopyComplete
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\obj\Debug\netcoreapp3.1\VTMS.DbManager.dll
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.DbContext\obj\Debug\netcoreapp3.1\VTMS.DbManager.pdb

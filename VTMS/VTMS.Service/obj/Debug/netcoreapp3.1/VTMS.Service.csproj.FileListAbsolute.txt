@@ -1,0 +1,15 @@
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\bin\Debug\netcoreapp3.1\VTMS.Service.deps.json
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\bin\Debug\netcoreapp3.1\VTMS.Service.dll
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\bin\Debug\netcoreapp3.1\VTMS.Service.pdb
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\bin\Debug\netcoreapp3.1\VTMS.DbManager.dll
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\bin\Debug\netcoreapp3.1\VTMS.Models.dll
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\bin\Debug\netcoreapp3.1\VTMS.DbManager.pdb
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\bin\Debug\netcoreapp3.1\VTMS.Models.pdb
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\obj\Debug\netcoreapp3.1\VTMS.Service.csproj.AssemblyReference.cache
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\obj\Debug\netcoreapp3.1\VTMS.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\obj\Debug\netcoreapp3.1\VTMS.Service.AssemblyInfoInputs.cache
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\obj\Debug\netcoreapp3.1\VTMS.Service.AssemblyInfo.cs
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\obj\Debug\netcoreapp3.1\VTMS.Service.csproj.CoreCompileInputs.cache
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\obj\Debug\netcoreapp3.1\VTMS.Service.csproj.CopyComplete
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\obj\Debug\netcoreapp3.1\VTMS.Service.dll
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Service\obj\Debug\netcoreapp3.1\VTMS.Service.pdb

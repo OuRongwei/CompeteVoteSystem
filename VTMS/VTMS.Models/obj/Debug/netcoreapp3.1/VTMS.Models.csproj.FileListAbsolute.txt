@@ -1,0 +1,10 @@
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Models\bin\Debug\netcoreapp3.1\VTMS.Models.deps.json
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Models\bin\Debug\netcoreapp3.1\VTMS.Models.dll
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Models\bin\Debug\netcoreapp3.1\VTMS.Models.pdb
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Models\obj\Debug\netcoreapp3.1\VTMS.Models.csproj.AssemblyReference.cache
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Models\obj\Debug\netcoreapp3.1\VTMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Models\obj\Debug\netcoreapp3.1\VTMS.Models.AssemblyInfoInputs.cache
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Models\obj\Debug\netcoreapp3.1\VTMS.Models.AssemblyInfo.cs
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Models\obj\Debug\netcoreapp3.1\VTMS.Models.csproj.CoreCompileInputs.cache
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Models\obj\Debug\netcoreapp3.1\VTMS.Models.dll
+F:\C#\2022第一学期实训\Test\VTMS\VTMS.Models\obj\Debug\netcoreapp3.1\VTMS.Models.pdb

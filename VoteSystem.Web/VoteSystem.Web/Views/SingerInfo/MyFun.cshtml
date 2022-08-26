@@ -1,0 +1,14 @@
+﻿<script>
+
+    function alertInfo() {
+        alert("okoko!!!");
+    }
+</script>
+<h1> 
+    @if (@Html.ValidationMessage("CredentialError", new { style = "color:red;" })!=null)
+    {
+        <script>
+            alertInfo();
+        </script>
+    }
+    </h1>

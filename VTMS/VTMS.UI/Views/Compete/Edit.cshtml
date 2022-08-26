@@ -1,0 +1,44 @@
+﻿@model VTMS.Models.Compete
+<h1>
+    编辑比赛信息
+</h1>
+
+<form method="post" action="~/Compete/SaveCompete">
+    <table>
+        <tr>
+            <td>图片链接：</td>
+            <td>
+                <input type="hidden" name="Id" value="@(Model==null?0:Model.Id)" />
+                <input type="text" name="ImageUrl" value="@(Model==null?"":Model.ImageUrl)" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>比赛名称：</td>
+            <td>
+                <input type="hidden" name="Id" value="@(Model==null?0:Model.Id)" />
+                <input type="text" name="Name" value="@(Model==null?"":Model.Name)" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>比赛说明</td>
+            <td><input type="text" name="Brief" value="@(Model==null?"":Model.Brief)" /></td>
+        </tr>
+
+
+        <tr>
+            <td>比赛开始时间</td>
+            <td><input type="datetime-local" name="StartTime" value="@(Model==null?"":Model.StartTime.ToString())" /></td>
+        </tr>
+
+        <tr>
+            <td>比赛结束时间</td>
+            <td><input type="datetime-local" name="EndTime" value="@(Model==null?"":Model.EndTime.ToString())" /></td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" name="submit" value="保存" /></td>
+        </tr>
+    </table>
+</form>

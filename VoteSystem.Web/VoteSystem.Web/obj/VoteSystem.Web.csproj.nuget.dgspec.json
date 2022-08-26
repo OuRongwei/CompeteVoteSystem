@@ -1,0 +1,260 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Web\\VoteSystem.Web.csproj": {}
+  },
+  "projects": {
+    "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Dal\\VoteSystem.Dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Dal\\VoteSystem.Dal.csproj",
+        "projectName": "VoteSystem.Dal",
+        "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Dal\\VoteSystem.Dal.csproj",
+        "packagesPath": "C:\\Users\\欧荣维\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Dal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\欧荣维\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Model\\VoteSystem.Model.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Model\\VoteSystem.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Model\\VoteSystem.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Model\\VoteSystem.Model.csproj",
+        "projectName": "VoteSystem.Model",
+        "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Model\\VoteSystem.Model.csproj",
+        "packagesPath": "C:\\Users\\欧荣维\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\欧荣维\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Services\\VoteSystem.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Services\\VoteSystem.Services.csproj",
+        "projectName": "VoteSystem.Services",
+        "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Services\\VoteSystem.Services.csproj",
+        "packagesPath": "C:\\Users\\欧荣维\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\欧荣维\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Dal\\VoteSystem.Dal.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Dal\\VoteSystem.Dal.csproj"
+              },
+              "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Model\\VoteSystem.Model.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Model\\VoteSystem.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Web\\VoteSystem.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Web\\VoteSystem.Web.csproj",
+        "projectName": "VoteSystem.Web",
+        "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Web\\VoteSystem.Web.csproj",
+        "packagesPath": "C:\\Users\\欧荣维\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\欧荣维\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Dal\\VoteSystem.Dal.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Dal\\VoteSystem.Dal.csproj"
+              },
+              "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Model\\VoteSystem.Model.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Model\\VoteSystem.Model.csproj"
+              },
+              "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Services\\VoteSystem.Services.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VoteSystem.Web\\VoteSystem.Services\\VoteSystem.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model VoteSystem.Model.Compete
+<style>
+    #examplel {
+        border: 2px solid #0094ff;
+        padding: 10px 40px;
+        background: #f5e1e1;
+        width: 1000px;
+        height: 500px;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .matchul {
+        display: flex;
+        justify-content: space-between;
+        bottom: 0px;
+        margin:40px auto auto;
+    }
+
+        .matchul li {
+            width: 200px;
+            height: 50px;
+            list-style: none;
+        }
+    p {
+        text-indent: 2em;
+        margin:30px auto auto;
+    }
+    h1{
+        text-align:center;
+    }
+</style>
+
+<div>
+    <h1 class="display-4">欢迎来到好声音歌唱比赛投票系统</h1>
+
+    <div id="examplel">
+        <h1>比赛主题：@Model.Name</h1>
+        <p>
+            比赛简介：@Model.Brief
+        </p>
+        <ul class="matchul">
+            <li>比赛开始时间：@Model.StartTime</li>
+            <li>比赛结束时间：@Model.EndTime</li>
+        </ul>
+
+    </div>
+</div>

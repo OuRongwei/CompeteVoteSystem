@@ -1,0 +1,53 @@
+﻿@model IQueryable<VTMS.Models.Singer>
+<style type="text/css">
+    .tbl {
+    }
+
+        .tbl a {
+            color: red
+        }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    input {
+        border: 0;
+        outline: none;
+    }
+</style>
+
+<h1>
+    歌手管理页面
+</h1>
+
+<a href="~/Singer/Edit">
+    <input type="button" value="新增歌手" />
+</a>
+<table class="tbl" border="1">
+    <tr>
+        <th>Id</th>
+        <th>歌手照片</th>
+        <th>歌手头衔</th>
+        <th>歌手名字</th>
+        <th>歌手年龄</th>
+        <th>婚姻状况</th>
+        <th>歌手简介</th>
+        <th>修改</th>
+        <th>删除</th>
+    </tr>
+    @foreach (var singer in Model)
+    {
+        <tr>
+            <td>@singer.Id</td>
+            <td><img src="http://localhost:8080/@singer.ImageUrl" style="width:100px;height:100px;" /></td>
+            <td>@singer.Title</td>
+            <td>@singer.Name</td>
+            <td>@singer.Age</td>
+            <td>@singer.Marry</td>
+            <td>@singer.Brief</td>
+            <td><a href="~/Singer/Edit/@singer.Id">修改</a></td>
+            <td><a href="~/Singer/Remove/@singer.Id">删除</a></td>
+        </tr>
+    }
+</table>

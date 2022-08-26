@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.UI\\VTMS.UI.csproj": {}
+  },
+  "projects": {
+    "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.DbContext\\VTMS.DbManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.DbContext\\VTMS.DbManager.csproj",
+        "projectName": "VTMS.DbManager",
+        "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.DbContext\\VTMS.DbManager.csproj",
+        "packagesPath": "C:\\Users\\欧荣维\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.DbContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\欧荣维\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Models\\VTMS.Models.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Models\\VTMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Models\\VTMS.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Models\\VTMS.Models.csproj",
+        "projectName": "VTMS.Models",
+        "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Models\\VTMS.Models.csproj",
+        "packagesPath": "C:\\Users\\欧荣维\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\欧荣维\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Service\\VTMS.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Service\\VTMS.Service.csproj",
+        "projectName": "VTMS.Service",
+        "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Service\\VTMS.Service.csproj",
+        "packagesPath": "C:\\Users\\欧荣维\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\欧荣维\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.DbContext\\VTMS.DbManager.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.DbContext\\VTMS.DbManager.csproj"
+              },
+              "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Models\\VTMS.Models.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Models\\VTMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.UI\\VTMS.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.UI\\VTMS.UI.csproj",
+        "projectName": "VTMS.UI",
+        "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.UI\\VTMS.UI.csproj",
+        "packagesPath": "C:\\Users\\欧荣维\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\欧荣维\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.DbContext\\VTMS.DbManager.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.DbContext\\VTMS.DbManager.csproj"
+              },
+              "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Models\\VTMS.Models.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Models\\VTMS.Models.csproj"
+              },
+              "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Service\\VTMS.Service.csproj": {
+                "projectPath": "F:\\C#\\2022第一学期实训\\Test\\VTMS\\VTMS.Service\\VTMS.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
